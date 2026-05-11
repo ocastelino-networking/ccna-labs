@@ -1,0 +1,29 @@
+enable
+configure terminal
+
+! Create VLANs
+vlan 10
+name Sales
+
+vlan 20
+name HR
+
+vlan 30
+name IT
+
+! Assign ports to VLAN 10
+interface f0/1
+switchport mode access
+switchport access vlan 10
+
+! Assign ports to VLAN 20
+interface f0/2
+switchport mode access
+switchport access vlan 20
+
+! Assign ports to VLAN 30
+interface f0/3
+switchport mode access
+switchport access vlan 30
+
+end
