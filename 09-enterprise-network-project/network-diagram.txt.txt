@@ -1,0 +1,8 @@
+                INTERNET
+                    |
+               [ Router ]
+                    |
+          -------------------
+          |        |        |
+       VLAN10   VLAN20   VLAN30
+        Sales      HR        IT
